@@ -1,4 +1,14 @@
-# Plain Craft Launcher
+# PCL WhiteCloudOL 修改版
+
+本仓库为 WhiteCloudOL 基于 [Plain Craft Launcher](https://github.com/Meloong-Git/PCL) 独立修改的第三方版本，与原作者及官方发布无关。
+原作者：龙腾猫跃；[赞助原作者](https://meloong.com/afd/a/LTCat)。
+
+当前修改版：**2.99.0.1**。恢复 Minecraft 下载，固定关闭启动器自动更新；保留蓝色主题、原作者署名及赞助链接、正版购买与赞助劝导。
+[下载修改版](https://github.com/WhiteCloudOL/PCL-backup/releases) · [查看源代码](https://github.com/WhiteCloudOL/PCL-backup)
+
+发布与后续修改须遵守原有 [LICENCE](LICENCE) 和其链接的《PCL 分发有限许可》。修改版适用《PCL 存储库合理使用指南》的“重度使用”条件；该指南是作者的条件性不追责承诺，不是 MIT、GPL 或 CC BY-SA 授权。第三方组件继续适用各自许可。
+
+以下保留上游项目介绍与链接。
 
 [![Stars](https://img.shields.io/github/stars/Meloong-Git/PCL?style=flat&logo=data:image/svg%2bxml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+PHBhdGggZD0iTTggLjI1YS43NS43NSAwIDAgMSAuNjczLjQxOGwxLjg4MiAzLjgxNSA0LjIxLjYxMmEuNzUuNzUgMCAwIDEgLjQxNiAxLjI3OWwtMy4wNDYgMi45Ny43MTkgNC4xOTJhLjc1MS43NTEgMCAwIDEtMS4wODguNzkxTDggMTIuMzQ3bC0zLjc2NiAxLjk4YS43NS43NSAwIDAgMS0xLjA4OC0uNzlsLjcyLTQuMTk0TC44MTggNi4zNzRhLjc1Ljc1IDAgMCAxIC40MTYtMS4yOGw0LjIxLS42MTFMNy4zMjcuNjY4QS43NS43NSAwIDAgMSA4IC4yNVoiIGZpbGw9IiNlYWM1NGYiLz48L3N2Zz4=&logoSize=auto&label=Stars&labelColor=444444&color=eac54f)](https://github.com/Meloong-Git/PCL/)
 [![Issues](https://img.shields.io/github/issues/Meloong-Git/PCL?style=flat&label=Issues&labelColor=444444&color=1F883D)](https://github.com/Meloong-Git/PCL/issues)

@@ -12,6 +12,7 @@
                         <RowDefinition Height="45" />
                         <RowDefinition Height="45" />
                         <RowDefinition Height="45" />
+                        <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                     <Grid.ColumnDefinitions>
                         <ColumnDefinition Width="40" />
@@ -20,7 +21,7 @@
                     </Grid.ColumnDefinitions>
                     <local:MyListItem IsHitTestVisible="False" Title="龙腾猫跃" Margin="-5,0,15,0" Info="Plain Craft Launcher 的开发者！" Grid.Row="0" Grid.Column="1" />
                     <local:MyListItem IsHitTestVisible="False" Title="HerobrineXia" Margin="-5,0,15,0" Info="Plain Craft Launcher 的协力开发者！" Grid.Row="1" Grid.Column="1" />
-                    <local:MyListItem IsHitTestVisible="False" Title="Plain Craft Launcher 2" Margin="-5,0,15,0" Info="当前版本：%VERSION%（%VERSIONCODE%.%BRANCH%）" Grid.Row="2" Grid.Column="1" x:Name="ItemAboutPcl" />
+                    <local:MyListItem IsHitTestVisible="False" Title="PCL WhiteCloudOL 修改版" Margin="-5,0,15,0" Info="当前版本：%VERSION%（%VERSIONCODE%.%BRANCH%）" Grid.Row="2" Grid.Column="1" x:Name="ItemAboutPcl" />
                     <Image Source="/Plain Craft Launcher 2;component/Images/Heads/LTCat.jpg" Grid.Row="0" Margin="3">
                         <Image.Clip>
                             <EllipseGeometry Center="17 17" RadiusX="17" RadiusY="17" />
@@ -40,6 +41,10 @@
                                     local:CustomEventService.EventType="打开网页" local:CustomEventService.EventData="https://meloong.com/afd/a/LTCat" />
                     <local:MyButton Text="检查更新" Grid.Column="2" Grid.Row="2" Height="35" 
                                     x:Name="BtnAboutUpdate" />
+                    <TextBlock Grid.Row="3" Grid.ColumnSpan="2" Margin="0,10,15,0" VerticalAlignment="Center" TextWrapping="Wrap"
+                               Text="本版本由 WhiteCloudOL 基于 PCL 独立修改，与原作者及官方发布无关。" />
+                    <local:MyButton Text="修改版源码" Grid.Column="2" Grid.Row="3" Height="35" Margin="0,10,0,0"
+                                    local:CustomEventService.EventType="打开网页" local:CustomEventService.EventData="https://github.com/WhiteCloudOL/PCL-backup" />
                 </Grid>
             </local:MyCard>
             <local:MyCard Margin="0,0,0,15" Title="特别鸣谢">

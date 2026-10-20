@@ -11,6 +11,10 @@ Public Class FormMain
         Dim FeatureList As New List(Of KeyValuePair(Of Integer, String))
         '统计更新日志条目
         If BuildType = BuildTypes.Release Then
+            If LastVersion < 415 Then 'Release 2.99.0.1，WhiteCloudOL 修改版
+                FeatureList.Add(New KeyValuePair(Of Integer, String)(5, "修改版：恢复 Minecraft 下载，并固定关闭启动器自动更新"))
+                FeatureList.Add(New KeyValuePair(Of Integer, String)(4, "修改版：补充第三方版本标识与源码入口，保留原作者署名、赞助及正版购买劝导"))
+            End If
             If LastVersion < 413 Then 'Release 2.99.0.0
                 FeatureList.Add(New KeyValuePair(Of Integer, String)(5, "删除：为遵守相关法律法规，PCL 暂时不再提供 MC 下载功能，非常抱歉 qwq……"))
             End If
@@ -274,7 +278,7 @@ Public Class FormMain
         RunInNewThread(
         Sub()
             If MyMsgBox(Content, "PCL 已更新至" & VersionDisplay, "确定", "完整更新日志") = 2 Then
-                OpenWebsite("https://meloong.com/afd/a/LTCat?tab=feed")
+                OpenWebsite("https://github.com/WhiteCloudOL/PCL-backup/releases")
             End If
         End Sub, "UpdateLog Output")
     End Sub
