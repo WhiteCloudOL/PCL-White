@@ -278,7 +278,7 @@ Public Class FormMain
         RunInNewThread(
         Sub()
             If MyMsgBox(Content, "PCL 已更新至" & VersionDisplay, "确定", "完整更新日志") = 2 Then
-                OpenWebsite("https://github.com/WhiteCloudOL/PCL-backup/releases")
+                OpenWebsite("https://github.com/WhiteCloudOL/PCL-White/releases")
             End If
         End Sub, "UpdateLog Output")
     End Sub

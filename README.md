@@ -4,7 +4,7 @@
 原作者：龙腾猫跃；[赞助原作者](https://meloong.com/afd/a/LTCat)。
 
 当前修改版：**2.99.0.1**。恢复 Minecraft 下载，固定关闭启动器自动更新；保留蓝色主题、原作者署名及赞助链接、正版购买与赞助劝导。
-[下载修改版](https://github.com/WhiteCloudOL/PCL-backup/releases) · [查看源代码](https://github.com/WhiteCloudOL/PCL-backup)
+[下载修改版](https://github.com/WhiteCloudOL/PCL-White/releases) · [查看源代码](https://github.com/WhiteCloudOL/PCL-White)
 
 发布与后续修改须遵守原有 [LICENCE](LICENCE) 和其链接的《PCL 分发有限许可》。修改版适用《PCL 存储库合理使用指南》的“重度使用”条件；该指南是作者的条件性不追责承诺，不是 MIT、GPL 或 CC BY-SA 授权。第三方组件继续适用各自许可。
 
