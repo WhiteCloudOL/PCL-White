@@ -122,7 +122,7 @@
                         <RowDefinition Height="Auto" />
                     </Grid.RowDefinitions>
                     <TextBlock VerticalAlignment="Center" HorizontalAlignment="Left" Text="启动器更新" Margin="0,0,25,0" />
-                    <local:MyComboBox x:Name="ComboSystemUpdate" local:SettingService.Key="SystemSystemUpdate" Grid.Column="1">
+                    <local:MyComboBox x:Name="ComboSystemUpdate" local:SettingService.Key="SystemSystemUpdate" Grid.Column="1" IsEnabled="False" ToolTip="此版本已关闭启动器自动更新">
                         <local:MyComboBoxItem Content="在有新版本时自动下载" x:Name="ItemSystemUpdateDownload" />
                         <local:MyComboBoxItem Content="在有新版本时显示提示" />
                         <local:MyComboBoxItem Content="仅在有重大漏洞更新时显示提示" />

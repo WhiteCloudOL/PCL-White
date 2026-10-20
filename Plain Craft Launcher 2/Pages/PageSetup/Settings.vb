@@ -35,7 +35,7 @@ Public Class Settings
         New Setting("SystemDebugDelay", False, Source:=Sources.Registry),
         New Setting("SystemDebugSkipCopy", False, Source:=Sources.Registry),
         New Setting("SystemSystemCache", "", Source:=Sources.Registry),
-        New Setting("SystemSystemUpdate", 0),
+        New Setting("SystemSystemUpdate", 3),
         New Setting("SystemSystemActivity", 0),
         New Setting("SystemSystemTelemetry", True, Source:=Sources.Registry),
         New Setting("CacheDrops", "", Source:=Sources.Registry),
@@ -315,6 +315,7 @@ Public Class Settings
         If Value IsNot Nothing Then Return Value
         '对部分设置强制赋值
         Static ForcedSettings As New Dictionary(Of String, Object) From {
+            {"SystemSystemUpdate", 3},
             {"UiHiddenPageLink", True},
             {"UiHiddenSetupLink", True}
         }
