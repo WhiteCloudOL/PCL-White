@@ -7,7 +7,7 @@ Public Module ModBase
 
     '下列版本信息由更新器自动修改
     Public Const VersionBaseName As String = "2.99.0.1" '显示用版本名
-    Public Const LauncherName As String = "PCL White"
+    Public Const LauncherName As String = "PCL White (Modified)"
     Public Const CommitHash As String = "" 'Commit Hash，由 GitHub Workflow 自动替换
 #If RELEASE Then
     Public Const VersionCode As Integer = 415 '正式版

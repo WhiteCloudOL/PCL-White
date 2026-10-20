@@ -1,4 +1,4 @@
-# PCL White
+# PCL White (Modified)
 
 本仓库为 WhiteCloudOL 基于 [Plain Craft Launcher](https://github.com/Meloong-Git/PCL) 独立修改的第三方版本，与原作者及官方发布无关。
 原作者：龙腾猫跃；[赞助原作者](https://meloong.com/afd/a/LTCat)。
